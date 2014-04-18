@@ -1,0 +1,73 @@
+
+body{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#top{
+	position: fixed;
+	z-index: 1;
+	height: 300px;
+	width: 100%
+}
+
+#logo{
+	float: left;
+	display: inline-block;
+	height: 100%;
+  	width: 20%;
+  	background-color: black;
+
+}
+
+#logo>img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#head{
+	float: right;
+	display: inline-block;
+	background-color: red;
+	width: 80%;
+	min-height: 100%;
+}
+#intro{
+
+}
+
+#mid {
+	position: relative;
+	margin-top: 300px;
+	z-index: 0;
+	height: 90%;
+	width: 100%;
+}
+#bottom {
+	position: relative;
+	z-index: 1;
+	height: 100px;
+	width: 100%;
+}
+
+#navbarLeft{
+	background-color: green;
+	height: 100px;
+	width: 20%;
+	float: left;
+	min-height: 100%;
+}
+#main{
+	background-color: orange;
+	float: right;
+	width: 80%;
+	height: 100%;
+}
+
+#bottomContent{
+	background-color: blue;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
