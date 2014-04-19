@@ -9,11 +9,29 @@
 		</title>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<link type="text/css" rel="stylesheet" href="reset.css"/>
+
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script>
+		      function initialize() {
+		        var map_canvas = document.getElementById('map_canvas');
+		        var map_options = {
+		          center: new google.maps.LatLng(44.5403, -78.5463),
+		          zoom: 8,
+		          mapTypeId: google.maps.MapTypeId.ROADMAP
+		        }
+		        var map = new google.maps.Map(map_canvas, map_options)
+		      }
+		      google.maps.event.addDomListener(window, 'load', initialize);
+    	</script>
+
+
+
 	</head>
 	<body>
 		<div id = "top">
 			<div id = "logo">
-				<img src = "logo.jpg"  />
+
+				<img src = "logo.png"  />
 			 </div>
 			<div id = "head">
 				<div id = "intro">
@@ -53,15 +71,24 @@
 			</div>
 
 			<div id = "main" class = "standartText">
-				<?php
-					echo "Text\n";
-				?>
-			 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			 	<div class = "linksDiv">
+			 		<h6> You can get additional info here: </h6>
+			 		<ul>
+			 			<li> <a href = "https://wikipedia.org" target="_blank">Wikipedia </a></li>
+			 			<li> <a href = "https://vk.com" target="_blank">Vkontakte </a></li>
+			 			<li> <a href = "https://nuoc.com" target="_blank">Nuoc </a></li>
+			 		</ul>
+
+			 	</div>
+
+			 	<div class = "contactsDiv">
+			 		<h6> Where to find us: </h6>
+			 		<div id="map_canvas"></div>
+			 		<div> Kremenchugskaya, 11</div>
+			 	</div>
+
+
 
 			</div>
 		</div>

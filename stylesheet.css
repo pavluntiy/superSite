@@ -160,11 +160,62 @@ body{
 	font-family: Impact;
 	color: green;
 }
+.navbarLink:visited{
+	font-family: cursive;
+	color: navy;
+}
 
 .navbarLink:hover{
 	font-family: cursive;
 	color: brown;
 }
+
+
+
+.currentLink{
+	font-family: Tahoma;
+	color: orange;
+}
+
+h6{
+	margin: 10px;
+	font-family: Impact;
+	font-size: 30px;
+}
+.linksDiv {
+	font-size: 15px;
+	padding: 20px;
+}
+
+.contactsDiv {
+	font-size: 15px;
+	padding: 20px;
+}
+
+.linksDiv ul{
+	list-style-type: square;
+}
+
+.linksDiv a:link{	
+	color: red;
+}
+
+.linksDiv a:visited{	
+	color: yellow 	;
+}
+
+.linksDiv a:hover{	
+	color: green;
+}
+
+ #map_canvas {
+        width: 500px;
+        height: 400px;
+          background-color: #CCC;
+
+ }
+
+
 
 
 

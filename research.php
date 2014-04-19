@@ -13,7 +13,7 @@
 	<body>
 		<div id = "top">
 			<div id = "logo">
-				<img src = "logo.jpg"  />
+				<img src = "logo.phg"  />
 			 </div>
 			<div id = "head">
 				<div id = "intro">
