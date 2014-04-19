@@ -1,23 +1,36 @@
 
 body{
 	position: absolute;
+	padding: 0px;
 	height: 100%;
 	width: 100%;
+	background-color: #CCFFFF;
+	/* what fuck is happening here?*/
 }
 
 #top{
+
+	margin-bottom: 5px;
+	margin-top: 5px;
+	position: relative;
 	position: fixed;
 	z-index: 1;
-	height: 300px;
-	width: 100%
+	height: 200px;
+	width: 100%;
 }
 
 #logo{
+	/*margin: 5px;*/
+	position: relative;
 	float: left;
 	display: inline-block;
-	height: 100%;
-  	width: 20%;
-  	background-color: black;
+	height: calc(100% - 20px);
+	padding: 10px;
+	width: calc(20% - 30px);
+	margin-right: 5px;
+	margin-left: 5px;
+  	background-color: #B8B8E6;	
+  	border-radius: 15px;
 
 }
 
@@ -27,47 +40,131 @@ body{
 }
 
 #head{
+	/*margin: 5px;*/
+	position: relative;
 	float: right;
 	display: inline-block;
-	background-color: red;
-	width: 80%;
-	min-height: 100%;
+	background-color: #A3A3CC;
+	
+	height: calc(100% - 20px);
+	padding: 10px;
+	width: calc(80% - 30px);
+	margin-right: 5px;
+	margin-left: 5px;
+
+	border-radius: 15px;
 }
+
+#navbarTop{
+	bottom: -50%;
+	text-align: center;
+	position: relative;
+	height: auto;
+	width: auto;
+}
+
+#navbarTop li{
+	display: inline;
+	background-color: red;
+	border-radius: 5px;
+	border: dotted black 1px;
+}
+
 #intro{
+	margin-top: 50px;
+	text-align: center;
+	color: grey;
+	font-family: Impact;
+	font-size: 40px;
 
 }
 
 #mid {
+
 	position: relative;
-	margin-top: 300px;
+	width: 100%;
+	margin-top: 210px;
 	z-index: 0;
 	height: 90%;
-	width: 100%;
+	
+}
+
+.standartText{
+		font-family: courier;
+		font-size: 15px;
 }
 #bottom {
 	position: relative;
 	z-index: 1;
-	height: 100px;
-	width: 100%;
+	padding: 5px;
+	height: 10%;
+	width: calc(100% - 10px);
 }
 
 #navbarLeft{
-	background-color: green;
-	height: 100px;
-	width: 20%;
+	font-size: 20px;
+	text-align: center;	
+	display: inline-block;
+	background-color: #CCFF99;
+	height: calc(100% - 20px);
+	padding: 10px;
+	width: calc(20% - 30px);
+	margin-right: 5px;
+	margin-left: 5px;
 	float: left;
-	min-height: 100%;
-}
-#main{
-	background-color: orange;
-	float: right;
-	width: 80%;
-	height: 100%;
+
+	border-radius: 15px;
 }
 
-#bottomContent{
-	background-color: blue;
-	height: 100%;
-	width: 100%;
-	z-index: 1;
+#navList{
+	list-style: none;
 }
+#main{
+	display: inline-block;
+	background-color: #FFCC99;
+	float: right;
+	
+	height: calc(100% - 20px);
+	border-radius: 15px;
+	padding: 10px;
+	width: calc(80% - 30px);
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+
+#bottomContent{
+
+	background-color: #5CB8E6;
+	margin-top: 2.5px;
+	margin-bottom: 5px;
+	height: calc(100% - 25px);
+	padding: 10px;
+	width: calc(100% - 20px);	
+	z-index: 1;
+	border-radius: 10px;
+}
+
+.active{
+	text-decoration: none;
+}
+
+.navbarLink{
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+.navbarLink:link{
+	font-family: Impact;
+	color: green;
+}
+
+.navbarLink:hover{
+	font-family: cursive;
+	color: brown;
+}
+
+
+
