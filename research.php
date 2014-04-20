@@ -17,6 +17,13 @@
 		  VK.init({apiId: 4317614, onlyWidgets: true});
 		</script>
 
+		<script src="jquery.js"></script> 
+    	<script> 
+		    $(function(){
+		      $("#includedContent").load("research_content.php"); 
+		    });
+    	</script> 
+
 	</head>
 	<body>
 			<div id="fb-root"></div>
@@ -72,18 +79,7 @@
 			</div>
 
 			<div id = "main" class = "standartText">
-			 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-			 	<table>
-			 		<row> </row>
-			 		<row> </row>
-			 		<row> </row>
-			 	</table>
+			 	<div id="includedContent"></div>
 
 			</div>
 		</div>
