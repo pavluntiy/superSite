@@ -15,8 +15,8 @@
 		      function initialize() {
 		        var map_canvas = document.getElementById('map_canvas');
 		        var map_options = {
-		          center: new google.maps.LatLng(44.5403, -78.5463),
-		          zoom: 8,
+		          center: new google.maps.LatLng(55.719291, 37.464298),
+		          zoom: 16,
 		          mapTypeId: google.maps.MapTypeId.ROADMAP
 		        }
 		        var map = new google.maps.Map(map_canvas, map_options)
@@ -30,8 +30,9 @@
 	<body>
 		<div id = "top">
 			<div id = "logo">
-
-				<img src = "logo.png"  />
+				<?php if($currentPageID != "index"){?> <a href = "index.php"><?php } ?>
+					<img src = "logo.png"  />
+				<?php if($currentPageID != "index"){?></a><?php } ?>
 			 </div>
 			<div id = "head">
 				<div id = "intro">
@@ -74,7 +75,7 @@
 
 			 	<div class = "linksDiv">
 			 		<h6> You can get additional info here: </h6>
-			 		<ul>
+			 		<ul class = "otherText">
 			 			<li> <a href = "https://wikipedia.org" target="_blank">Wikipedia </a></li>
 			 			<li> <a href = "https://vk.com" target="_blank">Vkontakte </a></li>
 			 			<li> <a href = "https://nuoc.com" target="_blank">Nuoc </a></li>
@@ -85,7 +86,7 @@
 			 	<div class = "contactsDiv">
 			 		<h6> Where to find us: </h6>
 			 		<div id="map_canvas"></div>
-			 		<div> Kremenchugskaya, 11</div>
+			 		<p class="otherText"> Kremenchugskaya, 11</p>
 			 	</div>
 
 
@@ -94,8 +95,10 @@
 		</div>
 
 		<div id = "bottom">
-			<div  class = "standartText" id  = "bottomContent">
-				Qarhyenhapp i saljimxony i nukkaymatil zcanat qorien ngo saqullim as, iqalvan saqullim arupenti.
+			<div  class = "otherText" id  = "bottomContent">
+				<div> If you have problems, <a href = "mailto:master@yapay.esy.es">email</a> us!
+					<i><a href = "mailto:master@yapay.esy.es">master@yapay.esy.es</a></i>
+				</div>
 			</div>
 		</div>
 

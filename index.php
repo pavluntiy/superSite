@@ -13,7 +13,9 @@
 	<body>
 		<div id = "top">
 			<div id = "logo">
-				<img src = "logo.png"  />
+				<?php if($currentPageID != "index"){?> <a href = "index.php"><?php } ?>
+					<img src = "logo.png"  />
+				<?php if($currentPageID != "index"){?></a><?php } ?>
 			 </div>
 			<div id = "head">
 				<div id = "intro">
@@ -51,24 +53,24 @@
 				
 
 			</div>
-
-			<div id = "main" class = "standartText">
-				<?php
-					echo "Text\n";
-				?>
-			 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+			<div id = "main">
+				<h6>Some knowledge </h6>
+				<div class = "standartText">
+				 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			 	</div>
 			</div>
 		</div>
 
 		<div id = "bottom">
-			<div  class = "standartText" id  = "bottomContent">
-				Qarhyenhapp i saljimxony i nukkaymatil zcanat qorien ngo saqullim as, iqalvan saqullim arupenti.
+				<div  class = "otherText" id  = "bottomContent">
+				<div> If you have problems, <a href = "mailto:master@yapay.esy.es">email</a> us!
+					<i><a href = "mailto:master@yapay.esy.es">master@yapay.esy.es</a></i>
+				</div>
 			</div>
 		</div>
 
