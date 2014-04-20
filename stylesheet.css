@@ -3,19 +3,20 @@ body{
 	position: absolute;
 	padding: 0px;
 	height: 100%;
-	width: 100%;
+	min-width: 1280px;
 	background-color: #CCFFFF;
 }
 
 #top{
 
 	margin-bottom: 5px;
-	margin-top: 5px;
+	margin-top: -5px;
 	position: relative;
 	position: fixed;
 	z-index: 1;
 	height: 200px;
-	width: 100%;
+	min-width: 1280px;
+	
 }
 
 #logo{
@@ -23,9 +24,9 @@ body{
 	position: relative;
 	float: left;
 	display: inline-block;
-	height: calc(100% - 20px);
+	height: calc(200px - 20px);
 	padding: 10px;
-	width: calc(20% - 30px);
+	width: calc(250px - 30px);
 	margin-right: 5px;
 	margin-left: 5px;
   	background-color: #B8B8E6;	
@@ -48,7 +49,7 @@ body{
 	
 	height: calc(100% - 20px);
 	padding: 10px;
-	width: calc(80% - 30px);
+	min-width: calc(100% - 250px - 30px);
 	margin-right: 5px;
 	margin-left: 5px;
 
@@ -56,7 +57,7 @@ body{
 }
 
 #navbarTop{
-	bottom: -50%;
+	bottom: -90px;
 	text-align: center;
 	position: relative;
 	height: auto;
@@ -106,10 +107,9 @@ body{
 	text-align: center;	
 	display: inline-block;
 	background-color: #CCFF99;
-	min-height: calc(100% - 20px);
 	min-height: 1000px;
 	padding: 10px;
-	width: calc(20% - 30px);
+	width: calc(250px - 30px);
 	margin-right: 5px;
 	margin-left: 5px;
 	float: left;
@@ -128,7 +128,7 @@ body{
 	height: calc(100% - 20px);
 	border-radius: 15px;
 	padding: 10px;
-	width: calc(80% - 30px);
+	width: calc(100% - 250px - 30px);
 	margin-right: 5px;
 	margin-left: 5px;
 	min-height: 1000px;
@@ -261,7 +261,7 @@ h6{
 }
 
 .shareList li{
-	max-width: 30%;
+	max-width: 30%;	
 	display: inline;
 }
 
