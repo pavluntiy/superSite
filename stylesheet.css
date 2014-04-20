@@ -5,7 +5,6 @@ body{
 	height: 100%;
 	width: 100%;
 	background-color: #CCFFFF;
-	/* what fuck is happening here?*/
 }
 
 #top{
@@ -142,7 +141,7 @@ body{
 	background-color: #5CB8E6;
 	margin-top: 2.5px;
 	margin-bottom: 5px;
-	height: calc(100% - 25px);
+	min-height: calc(100% - 25px);
 	padding: 10px;
 	width: calc(100% - 20px);	
 	z-index: 1;
@@ -251,6 +250,19 @@ h6{
 
 .otherText{
 	font-family: cursive;
+}
+
+.shareList ul{
+	list-style: none;
+	text-align: center;
+	position: relative;
+	height: auto;
+	width: auto;
+}
+
+.shareList li{
+	max-width: 30%;
+	display: inline;
 }
 
 
