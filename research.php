@@ -9,6 +9,12 @@
 		</title>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<link type="text/css" rel="stylesheet" href="reset.css"/>
+			<script src="jquery.js"></script> 
+    	<script> 
+		    $(function(){
+		      $("#includedContent").load("research_content.php"); 
+		    });
+    	</script> 
 
 		    	<!-- Put this script tag to the <head> of your page -->
 		<script type="text/javascript" src="//vk.com/js/api/openapi.js?111"></script>
@@ -17,12 +23,7 @@
 		  VK.init({apiId: 4317614, onlyWidgets: true});
 		</script>
 
-		<script src="jquery.js"></script> 
-    	<script> 
-		    $(function(){
-		      $("#includedContent").load("research_content.php"); 
-		    });
-    	</script> 
+	
 
 	</head>
 	<body>
@@ -78,7 +79,7 @@
 
 			</div>
 
-			<div id = "main" class = "standartText">
+			<div id = "main">
 			 	<div id="includedContent"></div>
 
 			</div>

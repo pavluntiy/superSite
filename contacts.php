@@ -9,6 +9,12 @@
 		</title>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<link type="text/css" rel="stylesheet" href="reset.css"/>
+		<script src="jquery.js"></script> 
+    	<script> 
+		    $(function(){
+		      $("#includedContent").load("contacts_content.php"); 
+		    });
+    	</script> 
 
 		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 		<script>
@@ -31,12 +37,7 @@
 		  VK.init({apiId: 4317614, onlyWidgets: true});
 		</script>
 
-		<script src="jquery.js"></script> 
-    	<script> 
-		    $(function(){
-		      $("#includedContent").load("contacts_content.php"); 
-		    });
-    	</script> 
+		
 
 
 

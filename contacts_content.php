@@ -1,5 +1,5 @@
 <div class = "linksDiv">
-			 		<h6> You can get additional info here: </h6>
+			 		<h2> You can get additional info here: </h2>
 			 		<ul class = "otherText">
 			 			<li> <a href = "https://wikipedia.org" target="_blank">Wikipedia </a></li>
 			 			<li> <a href = "https://vk.com" target="_blank">Vkontakte </a></li>
@@ -9,7 +9,7 @@
 			 	</div>
 
 			 	<div class = "contactsDiv">
-			 		<h6> Where to find us: </h6>
+			 		<h2> Where to find us: </h2>
 			 		<div id="map_canvas"></div>
 			 		<p class="otherText"> Kremenchugskaya, 11</p>
 			 	</div>
