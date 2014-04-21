@@ -5,8 +5,10 @@
 	?>
 	<head>
 		<title>
-			Contacts
+			Контакты
 		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<link type="text/css" rel="stylesheet" href="reset.css"/>
 		<script src="jquery.js"></script> 
@@ -21,7 +23,7 @@
 		      function initialize() {
 		        var map_canvas = document.getElementById('map_canvas');
 		        var map_options = {
-		          center: new google.maps.LatLng(55.719291, 37.464298),
+		          center: new google.maps.LatLng(55.696527,37.608451),
 		          zoom: 16,
 		          mapTypeId: google.maps.MapTypeId.ROADMAP
 		        }
@@ -30,7 +32,6 @@
 		      google.maps.event.addDomListener(window, 'load', initialize);
     	</script>
 
-    	<!-- Put this script tag to the <head> of your page -->
 		<script type="text/javascript" src="//vk.com/js/api/openapi.js?111"></script>
 
 		<script type="text/javascript">
@@ -63,18 +64,18 @@
 			 </div>
 			<div id = "head">
 				<div id = "intro">
-					Where to find us and useful links
+					Esoteric knowledge here!
 				</div>
 				<div id = "navbarTop">
 					<ul id = "navList">
 						<li class = "currentLink">
-							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Home <?php if($currentPageID != "index"){?></a><?php } ?>
+							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Главная <?php if($currentPageID != "index"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Contacts <?php if($currentPageID != "contacts"){?></a><?php } ?>
+							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Контакты <?php if($currentPageID != "contacts"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Research <?php if($currentPageID != "research"){?></a><?php } ?>
+							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Исследования <?php if($currentPageID != "research"){?></a><?php } ?>
 						</li>		
 					</ul>
 				</div>
@@ -85,32 +86,26 @@
 			<div id = "navbarLeft"> 
 					<ul id = "navList">
 						<li class = "currentLink">
-							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Home <?php if($currentPageID != "index"){?></a><?php } ?>
+							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Главная <?php if($currentPageID != "index"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Contacts <?php if($currentPageID != "contacts"){?></a><?php } ?>
+							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Контакты<?php if($currentPageID != "contacts"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Research <?php if($currentPageID != "research"){?></a><?php } ?>
+							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Исследования <?php if($currentPageID != "research"){?></a><?php } ?>
 						</li>		
 					</ul>
 				
 
 			</div>
-
-			<div id = "main" class = "standartText">
-
-			 	
-
-			 	<div id="includedContent"></div>
-
-
+			<div id = "main">
+				<div id="includedContent"></div>
 			</div>
 		</div>
 
 		<div id = "bottom">
 			<div  class = "otherText" id  = "bottomContent">
-				<div> If you have problems, <a href = "mailto:master@yapay.esy.es">email</a> us!
+				<div> Проблемы? Тогда <a href = "mailto:master@yapay.esy.es">сообщи</a> нам!
 					<i><a href = "mailto:master@yapay.esy.es">master@yapay.esy.es</a></i>
 				</div>
 

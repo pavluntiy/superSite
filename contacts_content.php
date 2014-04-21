@@ -1,15 +1,17 @@
 <div class = "linksDiv">
-			 		<h2> You can get additional info here: </h2>
+			 		<h2> Дополнительная информация: </h2>
 			 		<ul class = "otherText">
-			 			<li> <a href = "https://wikipedia.org" target="_blank">Wikipedia </a></li>
-			 			<li> <a href = "https://vk.com" target="_blank">Vkontakte </a></li>
-			 			<li> <a href = "https://nuoc.com" target="_blank">Nuoc </a></li>
+			 			<li> <a href = "http://ru.wikipedia.org/wiki/%D0%94%D1%80%D1%83%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82" target="_blank">
+			 			Дружественный искусственный интеллект (Википедия)</a></li>
+			 			<li> <a href = "http://izvestia.ru/news/561074" target="_blank"> Об опасности искусственного интеллекта "Известия" </a></li>
+			 			<li> <a href = "http://polit.ru/article/2012/12/16/ai_fears/" target="_blank">Полит.ру </a></li>
+			 			<li> <a href = "http://itword.org/uchyonye-ocenivayut-opasnost-razvitiya-iskusstvennogo-intellekta/" target="_blank">Itword </a></li>
 			 		</ul>
 
 			 	</div>
 
 			 	<div class = "contactsDiv">
-			 		<h2> Where to find us: </h2>
+			 		<h2> Где нас найти: </h2>
 			 		<div id="map_canvas"></div>
-			 		<p class="otherText"> Kremenchugskaya, 11</p>
+			 		<p class="otherText"> г.Москва, Загородное шоссе, д.2</p>
 			 	</div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<div>
+	<div class = "standartText">
     <h3>
         О нашем НИИ 
     </h3>
@@ -19,9 +19,9 @@
 			</li>
 		</ul>
     </p>
-	<h3>
+	<h1>
 		Наши текующие цели
-	</h3>
+	</h1>
 	<p>
 		В 2014 году большинство средств было выделено на анализ проблем искуственного интелекта. Основной целью
 		стало исследование так называемых "следов" искуственного интелекта. Данный сайт предназначен для 
@@ -29,4 +29,49 @@
 		и несколько методов борьбы. 
  	</p>
 	<div>
+
+	<script type="text/javascript">
+		$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+	</script>
+
+<div class = "slideshowColumn">
+	<div id="slideshow" class="slideComment">
+	   <div>
+	     <img src="Slides/Slide_1.JPG">
+	     <div> Вот он, готовый к нападению...</div>
+	   </div>
+	   <div>
+	     <img src="Slides/Slide_2.JPG">
+	     <div> Но у нас есть оружие...</div>
+	   </div>
+	   <div>
+	     <img src="Slides/Slide_3.JPG">
+	     <div> Незаметное развёртывание сил...</div>
+	   </div>
+
+	   <div>
+	     <img src="Slides/Slide_4.JPG">
+	     <div> Попался!</div>
+	   </div>
+
+	   <div>
+	     <img src="Slides/Slide_5.JPG">
+	     <div> Вяжем его, каждый миг важен!</div>
+	   </div>
+
+	   <div>
+	     <img src="Slides/Slide_6.JPG">
+	     <div> Мы спасены!</div>
+	   </div>
+	</div>
+</div>
 </html>

@@ -1,4 +1,4 @@
-<div>
+<div class = "standartText">
 		<h1>
 			Следы искусственного интелекта
 		</h1>
@@ -84,7 +84,31 @@
 			<li> <strike> Поступить в МФТИ. </strike> </li>
 		</ol>
 		<p>
+		src="https://www.youtube.com/embed/M7lc1UVf-VE"
 			Тут должна быть фотоинструкция с подписью но я уже задалбался писать да и фотика у меня нет
 			поэтому извиняйтся.
 		</p>
+		<h1>Один раз увидеть... </h1>
+		<div class = "videoColumn">
+			<div class = "videoRow">
+				<iframe id="ytplayer" type="text/html" width="640" height="360"
+				src="http://www.youtube.com/embed/LR2UYNKplX4"
+							frameborder="0" allowfullscreen>
+				</iframe>
+				<div>
+					<p>Как вы могли заметить, всё очень, очень, <em>очень-очень</em> плохо! </p>
+					<p>Но кто умирает последним! Нет, не вы! Надежда.</p>
+					<p>В следующем видео, мы объясним, как спастись!</p>
+				</div>
+			</div>
+			<div class = "videoRow">
+				<iframe id="ytplayer" type="text/html" width="640" height="360"
+				src="http://www.youtube.com/embed/LR2UYNKplX4"
+							frameborder="0" allowfullscreen>
+				</iframe>
+				<div>
+					<a href = "http://grandtextile.ru/cat/polotentsa/"  target="_blanc" class = "videoLink" >Без лишних слов</a>
+				</div>
+			</div>
+		</div>
 	<div>

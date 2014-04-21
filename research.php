@@ -4,8 +4,9 @@
 		$currentPageID = "research";
 	?>
 	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>
-			Contacts
+			Наши работы
 		</title>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<link type="text/css" rel="stylesheet" href="reset.css"/>
@@ -44,18 +45,18 @@
 			 </div>
 			<div id = "head">
 				<div id = "intro">
-					What we do
+					Что же делать!?
 				</div>
 				<div id = "navbarTop">
 					<ul id = "navList">
 						<li class = "currentLink">
-							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Home <?php if($currentPageID != "index"){?></a><?php } ?>
+							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Главная <?php if($currentPageID != "index"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Contacts <?php if($currentPageID != "contacts"){?></a><?php } ?>
+							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Контакты <?php if($currentPageID != "contacts"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Research <?php if($currentPageID != "research"){?></a><?php } ?>
+							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Исследования <?php if($currentPageID != "research"){?></a><?php } ?>
 						</li>		
 					</ul>
 				</div>
@@ -66,28 +67,26 @@
 			<div id = "navbarLeft"> 
 					<ul id = "navList">
 						<li class = "currentLink">
-							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Home <?php if($currentPageID != "index"){?></a><?php } ?>
+							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Главная <?php if($currentPageID != "index"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Contacts <?php if($currentPageID != "contacts"){?></a><?php } ?>
+							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Контакты<?php if($currentPageID != "contacts"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Research <?php if($currentPageID != "research"){?></a><?php } ?>
+							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Исследования <?php if($currentPageID != "research"){?></a><?php } ?>
 						</li>		
 					</ul>
 				
 
 			</div>
-
 			<div id = "main">
-			 	<div id="includedContent"></div>
-
+				<div id="includedContent"></div>
 			</div>
 		</div>
 
 		<div id = "bottom">
 			<div  class = "otherText" id  = "bottomContent">
-				<div> If you have problems, <a href = "mailto:master@yapay.esy.es">email</a> us!
+				<div> Проблемы? Тогда <a href = "mailto:master@yapay.esy.es">сообщи</a> нам!
 					<i><a href = "mailto:master@yapay.esy.es">master@yapay.esy.es</a></i>
 				</div>
 
@@ -111,7 +110,6 @@
 						</ul>
 					</div>
 		</div>
-
 	</body>
 
 </html>
