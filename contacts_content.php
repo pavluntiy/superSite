@@ -1,3 +1,4 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <div class = "linksDiv">
 			 		<h2> Дополнительная информация: </h2>
 			 		<ul class = "otherText">
@@ -14,4 +15,9 @@
 			 		<h2> Где нас найти: </h2>
 			 		<div id="map_canvas"></div>
 			 		<p class="otherText"> г.Москва, Загородное шоссе, д.2</p>
+			 	</div>
+
+			 	<div>
+			 		<h3>Смысл названия</h3>
+			 		<a href = "http://translate.google.ru/#tr/ru/yapay%20zeka" id = "mysteryButton" target="_blanc"><h4><div class= "mystery">Жми сюда! </div></h4></a>
 			 	</div>

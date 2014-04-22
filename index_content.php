@@ -1,6 +1,8 @@
-<!DOCTYPE html>
-<html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<div class = "standartText">
+	<h1> Возможно, вы ещё ничего не подозреваете...</h1>
+	<h4> Ничего, хоть времени и мало, вы можете ещё успеть...</h4>
     <h3>
         О нашем НИИ 
     </h3>
@@ -74,4 +76,3 @@ setInterval(function() {
 	   </div>
 	</div>
 </div>
-</html>

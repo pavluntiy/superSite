@@ -1,3 +1,6 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<link type="text/css" rel="stylesheet" href="reset.css"/>
 <div class = "standartText">
 		<h1>
 			Следы искусственного интелекта
@@ -33,43 +36,64 @@
 		</h3>
 		<p>
 			Вероятность очень высока, давайте посмотрим статистику по странам
-			<table>
-				<tr>
-					<td>
-						Америка
-					</td>
-					<td>
-						1234
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Россия
-					</td>
-					<td>
-						300
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Австралия
-					</td>
-					<td>
-						200
-					</td>
-				</tr>
-				<tr>
-					<td>
-						Африка
-					</td>
-					<td>
-						1
-					</td>
-				</tr>
-			</table>
+			<div id = "dataTableDiv">
+				<table id = "dataTable">
+					<thead> <h5>Очень важная статистика<h5></thead>
+					<tr> 
+						<td id = "tableHead">
+							Страна
+						</td>
+						<td id = "tableHead">
+							Данные (Волшебные величины)
+						</td>
+
+					</tr>
+					<tr>
+						<td>
+							Америка
+						</td>
+						<td>
+							1234
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Россия
+						</td>
+						<td>
+							300
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Австралия
+						</td>
+						<td>
+							200
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Африка
+						</td>
+						<td>
+							1
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Рыбинск
+						</td>
+						<td>
+							0.0000000000001
+						</td>
+					</tr>
+				</table>
+			</div>
 		</p>
 		<p>
-			Из таблицы мы можем увидеть, что наибольший шанс спастись есть у Африки.
+			Из таблицы мы можем увидеть, что наибольший шанс спастись есть у Африки и менее развитых регионов.
 		</p>
 		<h3>
 			Методы борьбы
@@ -84,15 +108,15 @@
 			<li> <strike> Поступить в МФТИ. </strike> </li>
 		</ol>
 		<p>
-		src="https://www.youtube.com/embed/M7lc1UVf-VE"
 			Тут должна быть фотоинструкция с подписью но я уже задалбался писать да и фотика у меня нет
 			поэтому извиняйтся.
 		</p>
 		<h1>Один раз увидеть... </h1>
 		<div class = "videoColumn">
 			<div class = "videoRow">
+
 				<iframe id="ytplayer" type="text/html" width="640" height="360"
-				src="http://www.youtube.com/embed/LR2UYNKplX4"
+				src="http://www.youtube.com/embed/G9TM6RbAyKc"
 							frameborder="0" allowfullscreen>
 				</iframe>
 				<div>
@@ -103,7 +127,7 @@
 			</div>
 			<div class = "videoRow">
 				<iframe id="ytplayer" type="text/html" width="640" height="360"
-				src="http://www.youtube.com/embed/LR2UYNKplX4"
+				src="http://www.youtube.com/embed/Mhzu6Dibs-g"
 							frameborder="0" allowfullscreen>
 				</iframe>
 				<div>

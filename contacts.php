@@ -18,6 +18,13 @@
 		    });
     	</script> 
 
+    	 <script> 
+		    $(function(){
+		      $("#cellar").load("cellar.php"); 
+		    });
+    	</script> 
+
+
 		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 		<script>
 		      function initialize() {
@@ -59,12 +66,14 @@
 		<div id = "top">
 			<div id = "logo">
 				<?php if($currentPageID != "index"){?> <a href = "index.php"><?php } ?>
-					<img src = "logo.png"  />
+					<img src = "logo.jpg"  />
 				<?php if($currentPageID != "index"){?></a><?php } ?>
 			 </div>
 			<div id = "head">
 				<div id = "intro">
-					Esoteric knowledge here!
+					<h1>
+						Как найти спасение?
+					</h1>
 				</div>
 				<div id = "navbarTop">
 					<ul id = "navList">
@@ -72,10 +81,13 @@
 							<?php if($currentPageID != "index"){?><a href = "index.php" class = "navbarLink"><?php } ?> Главная <?php if($currentPageID != "index"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
-							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Контакты <?php if($currentPageID != "contacts"){?></a><?php } ?>
+							<?php if($currentPageID != "contacts"){?><a href = "contacts.php" class = "navbarLink"><?php } ?> Контакты<?php if($currentPageID != "contacts"){?></a><?php } ?>
 						</li>
 						<li class = "currentLink">
 							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Исследования <?php if($currentPageID != "research"){?></a><?php } ?>
+						</li>	
+						<li class = "currentLink">
+							<?php if($currentPageID != "more"){?><a href = "more.php" class = "navbarLink"><?php } ?> Ещё <?php if($currentPageID != "more"){?></a><?php } ?>
 						</li>		
 					</ul>
 				</div>
@@ -93,6 +105,9 @@
 						</li>
 						<li class = "currentLink">
 							<?php if($currentPageID != "research"){?><a href = "research.php" class = "navbarLink"><?php } ?> Исследования <?php if($currentPageID != "research"){?></a><?php } ?>
+						</li>	
+						<li class = "currentLink">
+							<?php if($currentPageID != "more"){?><a href = "more.php" class = "navbarLink"><?php } ?> Ещё <?php if($currentPageID != "more"){?></a><?php } ?>
 						</li>		
 					</ul>
 				
@@ -104,30 +119,8 @@
 		</div>
 
 		<div id = "bottom">
-			<div  class = "otherText" id  = "bottomContent">
-				<div> Проблемы? Тогда <a href = "mailto:master@yapay.esy.es">сообщи</a> нам!
-					<i><a href = "mailto:master@yapay.esy.es">master@yapay.esy.es</a></i>
-				</div>
-
-					<div class = "shareList">
-						<ul>
-							<li>
-								<div>
-									<!-- Put this div tag to the place, where the Like block will be -->
-									<div id="vk_like"></div>
-									<script type="text/javascript">
-									VK.Widgets.Like("vk_like", {type: "button"});
-									</script>
-
-								</div>
-								</VK.Widgets.Like("vk_like",>
-							</li>
-							<li>
-								<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
-								</div>
-							</li>
-						</ul>
-					</div>
+			<div id = "cellar">
+			</div>
 		</div>
 
 	</body>
