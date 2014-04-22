@@ -25,9 +25,9 @@
 					<div id = "autors"> 
 						<h5>Создатели</h5>
 						<ul>
-						<li>Дизайн: <a href = "https://vk.com/id9315481" > Глазов Всеволод </a></li>
-						<li>Контент:<a href = "https://vk.com/zerg1996" > Москвин Алексей </a></li>
-						<li>Вёрстка: <a href = "https://vk.com/id179261755" > Мазаев Павел </a></li>
+						<li>Дизайн: <a href = "https://vk.com/id9315481" target="_blanc"> Глазов Всеволод </a></li>
+						<li>Контент:<a href = "https://vk.com/zerg1996"  target="_blanc" > Москвин Алексей </a></li>
+						<li>Вёрстка: <a href = "https://vk.com/id179261755"  target="_blanc" > Мазаев Павел </a></li>
 						</ul>
 					</div>
 				</div>

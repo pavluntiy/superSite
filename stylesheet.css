@@ -96,7 +96,7 @@ body{
 
 .standartText{
 		font-family: serif;
-		font-size: 15px;
+		font-size: 20px;
 }
 #bottom {
 	clear: both;
@@ -119,8 +119,7 @@ body{
 	margin-right: 8px;
 	margin-left: 8px;
 	float: left;
-
-		border: 2px solid #0B0B0B;
+	border: 2px solid #0B0B0B;
 }
 
 
@@ -131,7 +130,6 @@ body{
 #navList li{
 	list-style: none;
 	padding: 0px;
-
 	margin: 0px;
 }
 
@@ -166,6 +164,7 @@ body{
 	width: calc(100% - 20px);	
 	z-index: 1;
 	border: 2px solid #0B0B0B;
+	text-align: center;
 }
 
 .active{
@@ -183,12 +182,12 @@ body{
 	color: white;
 }
 .navbarLink:visited{
-	font-family: cursive;
+	font-family: Helvetica;
 	color: white;
 }
 
 .navbarLink:hover{
-	font-family: cursive;
+	font-family: Helvetica;
 	color: #51FFEA;
 }
 
@@ -196,6 +195,7 @@ body{
 
 .currentLink{
 	color: #4DAC89;
+	font-family:  Helvetica;
 }
 
 

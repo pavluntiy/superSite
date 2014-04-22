@@ -22,7 +22,7 @@
 		</ul>
     </p>
 	<h1>
-		Наши текующие цели
+		Наши текущие цели
 	</h1>
 	<p>
 		В 2014 году большинство средств было выделено на анализ проблем искуственного интелекта. Основной целью
@@ -37,12 +37,12 @@
 
 setInterval(function() { 
   $('#slideshow > div:first')
-    .fadeOut(1000)
+    .fadeOut(2500)
     .next()
     .fadeIn(1)
     .end()
     .appendTo('#slideshow');
-},  3000);
+},  4500);
 	</script>
 
 <div class = "slideshowColumn">
